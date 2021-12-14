@@ -1,5 +1,5 @@
 # Movie-Booking-WebApp
-This app was created as part of the google cloud platform. This app represent online booking movies.
+This app was created as part of the google cloud platform, represent online booking movies.
 
 ## Technology Stack
 - NodeJS
