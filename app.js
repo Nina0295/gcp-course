@@ -76,7 +76,7 @@ app.use(search);
 app.use(profile);
 
 
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 8080;
 
 app.listen(port, function (err) {
 	if (err)
