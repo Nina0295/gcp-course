@@ -1,11 +1,11 @@
-ar mongoose=require("mongoose");
+const mongoose=require("mongoose");
 
-var seatSchema=new mongoose.Schema(
+const seatSchema=new mongoose.Schema(
 {
-	number: Number,
-	auditorium:
-	{
-		type: mongoose.Schema.Types.ObjectId,
-		ref: "auditorium"
-	}
+  number: Number,
+  auditorium:
+  {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "auditorium"
+  }
 });
