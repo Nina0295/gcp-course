@@ -1,21 +1,12 @@
-var mongoose=require("mongoose");
+const mongoose=require("mongoose");
 
-var audiSchema=new mongoose.Schema(
+const audiSchema=new mongoose.Schema(
 {
-	name: {type: String, require: true, enum: ["Cinema Hall 1","Cinema Hall 2","Cinema Hall 3"]},
-	
-	
-	
-
-	showTimes:[{
-
-		start: Number,
-		available: Boolean
-		
-		
-	}]
-	
-
+  name: {type: String, require: true, enum: ["Cinema Hall 1","Cinema Hall 2","Cinema Hall 3"]},
+  showTimes:[{
+    start: Number,
+    available: Boolean
+  }]
 });
 
 module.exports=mongoose.model("Audi",audiSchema);
